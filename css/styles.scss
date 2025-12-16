@@ -23,14 +23,10 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 /* Selve navbaren */
 
-
-.logo {
-  position: absolute;
-  top: 0px;
-  left: 165px;
-  width: 120px;
-  height: auto;}
-
+body {
+  display: flex;
+  justify-content: center;
+}
 
 .navbar {
   background-color: #FFF387; /* Gul baggrund */
