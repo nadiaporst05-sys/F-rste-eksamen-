@@ -3,6 +3,7 @@
 
 // 2. Include any default variable overrides here
 $link-decoration: none;
+$primary: #FFF387;
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -20,35 +21,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 // 5. Du kan lave styling her...
 
 //Mobilversionen forside
-
-/* Selve navbaren */
-
-body {
-  display: flex;
-  justify-content: center;
-}
-
-.navbar {
-  background-color: #FFF387; /* Gul baggrund */
-  padding: 10px;
-}
-
-/* Fjern standardliste-stil */
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex; /* gør links liggende på række */
-}
-
-/* Styling af links */
-.navbar ul li a {
-  color: black; /* tekstfarve */
-  text-decoration: none;
-  padding: 10px 15px;
-  display: block;
-}
-
 
 
 
