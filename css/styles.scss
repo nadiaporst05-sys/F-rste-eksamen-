@@ -98,6 +98,71 @@ Mesterlærer billeder
 .teal   .card-info { background: rgba(77, 153, 160, 0.75); }
 .purple .card-info { background: rgba(155, 117, 188, 0.75); }
 
+//Mobilversionen Hvad tilbyder vi?
 
+/* Section – isoleret */
+.profiles {
+  padding: 4rem 0;
+  text-align: center;
+}
 
-//Mobilversionen kontakt
+/* ØVERSTE RÆKKE */
+.top-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+
+  max-width: 900px;
+  margin: 0 auto 5rem auto;
+}
+
+.profile img {
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.profile figcaption {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/* NEDERSTE RÆKKE */
+.bottom-row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profiles-group {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.profiles-group img {
+  width: 220px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* FÆLLES TEKST */
+.group-title {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.profiles-group img {
+  width: 440px;
+  height: 520px;         /* lidt højere */
+  object-fit: contain;
+  padding: 10px;
+  background: #fff;
+  border-radius: 20px;
+}
